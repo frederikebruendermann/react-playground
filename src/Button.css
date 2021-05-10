@@ -1,0 +1,17 @@
+.Button {
+  padding: 10px;
+  background: white;
+  color: black;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Button.active {
+  color: grey;
+  border-color: grey;
+  background-color: lavender;
+  font: bold;
+}
