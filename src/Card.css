@@ -1,0 +1,25 @@
+.CardPart {
+  background-color: rgb(250, 235, 168);
+  padding: 16px;
+  border-radius: 8px;
+  position: relative;
+  margin: 30px;
+}
+
+.CardBookmark {
+  position: absolute;
+  top: -12px;
+  right: 8px;
+  border: 20px solid lightgray;
+  border-bottom-color: transparent;
+  height: 30px;
+}
+
+.CardBookmarkSelected {
+  position: absolute;
+  top: -12px;
+  right: 8px;
+  height: 20px;
+  border: 20px solid rgb(240, 178, 209);
+  border-bottom-color: transparent;
+}
