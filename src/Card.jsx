@@ -7,6 +7,7 @@ export default ({
   question,
   answer,
   isAnswerVisible,
+  tags,
 }) => {
   return (
     <section className="CardPart">
@@ -15,7 +16,14 @@ export default ({
       ></div>
       <h2>{title}</h2>
       <p>{'Frage: ' + question}</p>
-      <p className={isAnswerVisible ? '' : 'InvisibleAnswer'}>{answer}</p>
+      <p className={isAnswerVisible ? '' : 'InvisibleAnswer'}>
+        {'Antwort: ' + answer}
+      </p>
+      <ul className="TagList">
+        {tags.map(tag => (
+          <li className="TagList-Tag">{tag}</li>
+        ))}
+      </ul>
     </section>
   )
 }

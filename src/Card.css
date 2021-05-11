@@ -4,6 +4,7 @@
   border-radius: 8px;
   position: relative;
   margin: 30px;
+  font-family: monospace;
 }
 
 .CardBookmark {
@@ -26,4 +27,17 @@
 
 .InvisibleAnswer {
   display: none;
+}
+
+.TagList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-left: -40px;
+}
+
+.TagList-Tag {
+  background: rgb(240, 178, 209);
 }
