@@ -8,28 +8,33 @@ const cards = [
   {
     title: 'Frage 1',
     text: 'Warum kann ein Bagger nicht schwimmen?',
-    isBookmarked: true,
+    isActive: true,
+    id: 1,
   },
   {
     title: 'Frage 2',
     text:
       'Was sagte der Erbauer des Schiefen Turms von Pisa vor dem Baubeginn?',
-    isBookmarked: false,
+    isActive: false,
+    id: 2,
   },
   {
     title: 'Frage 3',
     text: 'Wie nennt der Physiker seine Kinder?',
-    isBookmarked: false,
+    isActive: false,
+    id: 3,
   },
   {
     title: 'Frage 4',
     text: 'Was schwimmt in einem See und fängt mit Z an?',
-    isBookmarked: true,
+    isActive: true,
+    id: 4,
   },
   {
     title: 'Frage 5',
     text: 'Wie nennt man einen Bumerang der nicht zurück kommt?',
-    isBookmarked: true,
+    isActive: true,
+    id: 5,
   },
 ]
 
@@ -42,12 +47,8 @@ export default ({ children, text }) => {
         <Header isBackButtonVisible>Profile</Header>
       </section>
       <section className="CardBox">
-        {cards.map(card => (
-          <Card
-            title={card.title}
-            copyText={card.text}
-            isBookmarked={card.isBookmarked}
-          />
+        {cards.map(({ id, title, text, isActive }) => (
+          <Card key={id} title={title} text={text} isActive={isActive} />
         ))}
       </section>
       <section className="PaginationBox">
