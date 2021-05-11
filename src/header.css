@@ -1,0 +1,13 @@
+.HeaderBox {
+  background: rgb(238, 186, 149);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-width: 2px;
+  border-color: darkblue;
+  padding: 10px;
+}
+
+.Header.button {
+  background: cornflowerblue;
+}

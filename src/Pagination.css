@@ -1,8 +1,15 @@
 .Pagination {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .Pagination button.active {
   opacity: 0.3;
+}
+
+.PaginationBox {
+  background: rgb(180, 180, 241);
+  padding: 10px;
+  margin-top: 10px;
 }
