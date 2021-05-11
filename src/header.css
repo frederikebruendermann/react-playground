@@ -1,12 +1,16 @@
 .HeaderBox {
   background: rgb(238, 186, 149);
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  border-width: 2px;
-  border-color: darkblue;
+  /* justify-content: space-around;
+  flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
   padding: 10px;
   font-family: monospace;
+  height: 48px;
+  width: 100%;
 }
 
 .Header.button {

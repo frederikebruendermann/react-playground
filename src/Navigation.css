@@ -1,0 +1,23 @@
+.NavigationBox {
+  background: rgb(132, 170, 240);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: aliceblue;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.NavigationActive {
+  opacity: 0.3;
+  background: blueviolet;
+}
+
+.NavigationInactive {
+  opacity: 0.3;
+  background: goldenrod;
+}
