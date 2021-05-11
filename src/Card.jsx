@@ -1,12 +1,21 @@
 import * as React from 'react'
 import './Card.css'
 
-export default ({ isActive, title, text }) => {
+export default ({
+  isBookmarkActive,
+  title,
+  question,
+  answer,
+  isAnswerVisible,
+}) => {
   return (
     <section className="CardPart">
-      <div className={isActive ? 'CardBookmarkSelected' : 'CardBookmark'}></div>
+      <div
+        className={isBookmarkActive ? 'CardBookmarkSelected' : 'CardBookmark'}
+      ></div>
       <h2>{title}</h2>
-      <p>{text}</p>
+      <p>{'Frage: ' + question}</p>
+      <p className={isAnswerVisible ? '' : 'InvisibleAnswer'}>{answer}</p>
     </section>
   )
 }

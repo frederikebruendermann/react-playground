@@ -23,3 +23,7 @@
   border: 20px solid rgb(240, 178, 209);
   border-bottom-color: transparent;
 }
+
+.InvisibleAnswer {
+  display: none;
+}
