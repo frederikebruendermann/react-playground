@@ -21,7 +21,7 @@ export default ({
       </p>
       <ul className="TagList">
         {tags.map(tag => (
-          <li className="TagList-Tag">{tag}</li>
+          <li key={tag} className="TagList-Tag">{tag}</li>
         ))}
       </ul>
     </section>
