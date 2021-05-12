@@ -1,0 +1,48 @@
+export const cards = [
+    {
+      title: 'Frage 1',
+      question: 'Warum kann ein Bagger nicht schwimmen?',
+      answer: 'Er hat nur einen Arm.',
+      isAnswerVisible: true,
+      isBookmarkActive: true,
+      id: 1,
+      tags: ['#One', '#Two', '#Three'],
+    },
+    {
+      title: 'Frage 2',
+      question:
+        'Was sagte der Erbauer des Schiefen Turms von Pisa vor dem Baubeginn?',
+      answer: '„Wird schon schiefgehen!“',
+      isAnswerVisible: false,
+      isBookmarkActive: false,
+      id: 2,
+      tags: ['#One', '#Two', '#Three'],
+    },
+    {
+      title: 'Frage 3',
+      question: 'Wie nennt der Physiker seine Kinder?',
+      answer: 'Kelvin, Hektor und Pascal.',
+      isAnswerVisible: true,
+      isBookmarkActive: false,
+      id: 3,
+      tags: ['#One', '#Two', '#Three'],
+    },
+    {
+      title: 'Frage 4',
+      question: 'Was schwimmt in einem See und fängt mit Z an?',
+      answer: 'Zwei Enten.',
+      isAnswerVisible: false,
+      isBookmarkActive: true,
+      id: 4,
+      tags: ['#One', '#Two', '#Three'],
+    },
+    {
+      title: 'Frage 5',
+      question: 'Wie nennt man einen Bumerang der nicht zurück kommt?',
+      answer: 'Stock.',
+      isAnswerVisible: true,
+      isBookmarkActive: true,
+      id: 5,
+      tags: ['#One', '#Two', '#Three'],
+    },
+  ]

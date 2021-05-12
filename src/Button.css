@@ -5,13 +5,13 @@
   border-width: 2px;
   border-color: black;
   border-radius: 10px;
+  font-family: monospace;
 }
 
 .Button.active {
   color: grey;
   border-color: grey;
   background-color: lavender;
-  font: bold;
 }
 
 .ButtonBox {
