@@ -4,8 +4,9 @@ import './Navigation.css'
 export default function Navigation({ children }) {
   return (
     <nav className="Navigation">
-      <a className="NavigationActive" href=""></a>
-      {children}
+      <a className="NavigationActive" href="">
+            {children}
+      </a>
     </nav>
   )
 }
